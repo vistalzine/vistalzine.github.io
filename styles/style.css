@@ -1,3 +1,7 @@
+html, body {
+   height: 100%;
+}  
+
 body { 
    background: url(../images/vistal-bg-0918.jpg) no-repeat center center fixed; 
    -webkit-background-size: cover;
@@ -5,3 +9,14 @@ body {
    -o-background-size: cover;
    background-size: cover;
 }
+
+.zine {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#publitas-embed {
+   width: 100%; 
+} 
