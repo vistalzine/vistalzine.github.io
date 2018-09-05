@@ -25,7 +25,8 @@ body {
 }
 
 .link { 
-   font: 2em "Lucida Console", Monaco, monospace;
+   padding: 0.5em;
+   font: 1.75em 'Playfair Display', serif;
    font-weight: bold; 
    color: white;
    text-align: center;
@@ -36,13 +37,16 @@ a:link {
 }
 
 a:visited {
+   color: gainsboro;
    text-decoration: none;
 }
 
 a:hover {
-   text-decoration: underline;
+   color: blue;
+   font-style: italic;
+   text-decoration: none;
 }
 
 a:active {
-   text-decoration: underline;
+   text-decoration: none;
 }
