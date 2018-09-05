@@ -28,11 +28,12 @@ body {
    padding: 0.5em;
    font: 1.75em 'Playfair Display', serif;
    font-weight: bold; 
-   color: white;
+   color: gainsboro;
    text-align: center;
 }
 
 a:link {
+   color: gainsboro;
    text-decoration: none;
 }
 
@@ -48,9 +49,11 @@ a:hover {
 }
 
 a:active {
+   color: gainsboro;
    text-decoration: none;
 }
 
 a:focus {
+   color: gainsboro;
    text-decoration: none;
 }
