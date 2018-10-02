@@ -24,36 +24,11 @@ body {
    width: 100%; 
 }
 
-.link { 
-   padding: 0.5em;
-   font: 1em 'Playfair Display', serif;
-   font-weight: bold; 
-   color: gainsboro;
-   text-align: center;
-}
-
-a:link {
-   color: gainsboro;
-   text-decoration: none;
-}
-
-a:visited {
-   color: gainsboro;
-   text-decoration: none;
-}
-
-a:hover {
-   color: blue;
-   font-style: italic;
-   text-decoration: none;
-}
-
-a:active {
-   color: gainsboro;
-   text-decoration: none;
-}
-
-a:focus {
-   color: gainsboro;
-   text-decoration: none;
+.btn {
+   display: block; 
+   margin: 0 auto; 
+   font: 0.8em 'Playfair Display', serif;
+   border-radius: 5px;
+   cursor: pointer;
+   text-transform: uppercase;
 }
